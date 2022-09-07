@@ -7,19 +7,24 @@
     display: none;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 #siteContainer
 {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    background-color: #6B6E70;
+    background-color:
 }
 
 .header
 {
     display: flex;
     flex-direction: row;
-    background-color: #222629;
+    background-color: #25273C;
     width: 100%;
 
 }
@@ -50,7 +55,7 @@
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
-  font-family: 'kito', helvetica, sans-serif;
+  font-family: 'raleway', helvetica, sans-serif;
 
 }
 
@@ -96,17 +101,18 @@
 
 .promoVid
 {
-    margin-top: 50px;
-    width: 100%;
-    max-width: 650px;
+  display: block;
+    margin: 0 auto;
+    margin-top:50px;
+    width: 80%;
 }
 
 .introText
 {
-    color: #ffffff;
+    color: black;
     margin-top: 75px;
     margin-bottom: 75px;
-    font-family: 'Teko', helvetica, sans-serif;
+    font-family: 'raleway', helvetica, sans-serif;
     font-size: 24px;
     margin-left: 50px;
     margin-right: 50px;
@@ -136,15 +142,15 @@
 }
 
 .portfolio_home_feature h2{
-  color: #fff;
-  font-family: 'teko', helvetica, sans-serif;
+  color: black;
+  font-family: 'raleway', helvetica, sans-serif;
   font-size: 24px;
   text-align: center;
   margin-bottom: 50px;
 }
 .portfolio_home_feature p
 {
-  font-family: 'kito', helvetica, sans-serif;
+  font-family: 'raleway', helvetica, sans-serif;
   font-size: 24px;
     color: #fff;
     font-size: 14px;
@@ -156,7 +162,7 @@
 /*FOOTER*/
 .footer_container
 {
-    background: #222629;
+    background: #25273C;
     width: 100%;
 }
 
@@ -171,7 +177,7 @@
     display: flex;
     justify-content: center;
     padding: 10px;
-    font-family: 'teko', helvetica, sans-serif;
+    font-family: 'raleway', helvetica, sans-serif;
 }
 
 /*ABOUT THE TEAM PAGE*/
@@ -220,7 +226,7 @@
 }
 
 .team_box p{
-  font-family: 'Teko', helvetica, sans-serif;
+  font-family: 'raleway', helvetica, sans-serif;
   font-size: 24px;
 }
 
@@ -236,7 +242,7 @@
 
 .team_headshots p
 {
-    font-family: 'Teko', helvetica, sans-serif;
+    font-family: 'raleway', helvetica, sans-serif;
     color: white;
     font-size: 1rem;
     padding-top: 10px;
@@ -254,7 +260,7 @@
     display: flex;
     margin: 0 auto;
     padding: 15px;
-    font-family: 'Teko', helvetica, sans-serif;
+    font-family: 'raleway', helvetica, sans-serif;
 }
 
 #contact-form label
@@ -496,7 +502,7 @@
 {
     display: flex;
     flex-direction: row;
-    background-color: #222629;
+    background-color: #25273C;
     width: 100%;
 
 }
@@ -510,6 +516,12 @@
     margin-bottom: 15px;
 }
 
+.promoVid{
+  display: block;
+    margin: 0 auto;
+    margin-top:50px;
+    width: 80%;
+}
 .header ul
 {
     display: none;
@@ -561,6 +573,10 @@
     cursor: pointer;
 }
 
+.footer{
+
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -570,9 +586,10 @@
 
 .promoVid
 {
-    margin-top: 50px;
-    width: 100%;
-    max-width: 800px;
+  display: block;
+    margin: 0 auto;
+    margin-top:50px;
+    width: 80%;
 }
 
 .introText
@@ -624,7 +641,7 @@
     background: #222629;
     height: 50px;
     width: 100%;
-    font-family: 'Teko', helvetica, sans-serif;
+    font-family: 'raleway', helvetica, sans-serif;
 }
 
 .footer_nav
@@ -680,7 +697,7 @@
     display: flex;
     margin: 70px 50px;
     /* change font family */
-    font-family: 'Teko', helvetica, sans-serif;
+    font-family: 'raleway', helvetica, sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
     color: white;
@@ -703,7 +720,7 @@ team_box_bio p
     display: flex;
     margin: 0 auto;
     padding: 15px;
-    font-family: 'Teko', helvetica, sans-serif;
+    font-family: 'raleway', helvetica, sans-serif;
 }
 
 #contact-form label
@@ -867,7 +884,7 @@ team_box_bio p
     margin: 0 auto;
     max-width: 1920px;
     height: auto;
-    background-color: white;
+    background-color:#6735F9;
 
 }
 
@@ -876,13 +893,18 @@ team_box_bio p
 {
 display: flex;
 flex-direction: row;
-background: #FF3E14;
-height: 250px;
+background: #25273C;
+height: 150px;
 max-width: 1920px;
 font-size: 1.3rem;
+border-bottom-style: solid;
+border-bottom-color: grey;
+border-bottom-width: thick;
 /*change this font family*/
-font-family: 'kito', helvetica, sans-serif;
+
+
 }
+
 
 .mobileNav
 {
@@ -898,40 +920,60 @@ font-family: 'kito', helvetica, sans-serif;
 
 .topNav a
 {
+
     text-decoration: none;
     color: black;
+    font-family: 'Georgia', helvetica, sans-serif;
     font-size: 22px;
+    text-align: center;
+
 }
 
 .topNav
 {
     display: flex;
+position: absolute;
 
 
-}
 
-.topNav li
-{
-  margin-top: 22px;
-  margin-left: 0px;
-  margin-right: 100px;
-}
-
-.topNav a:hover
-{
-    color: white;
-    opacity: 0.7;
 }
 
 .topNav ul
 {
     display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-top: 25px;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 650px;
+    margin-right: 500px;
+
+
 
     list-style-type: none;
 }
+
+
+.topNav ul li
+{
+padding: 20px;
+
+
+}
+
+.topNav ul li a{
+  font-size: 1.7rem;
+  /*change this font family*/
+  font-family: "Raleway", helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+
+}
+.topNav a:hover
+{
+    color: #D4F640;
+    opacity: 0.7;
+}
+
 
 
 /*Main Page Content*/
@@ -941,7 +983,7 @@ font-family: 'kito', helvetica, sans-serif;
   display: block;
     margin: 0 auto;
     margin-top:50px;
-    width: 70%;
+    width: 80%;
 
 
 
@@ -956,11 +998,11 @@ font-family: 'kito', helvetica, sans-serif;
     flex-direction: column;
     margin: 0 auto;
     margin-top: 25px;
-    background: #FF3E14;
+    background: #25273C;
     height: 180px;
     width: 100%;
     max-width: 1920px;
-    font-family: 'kito', helvetica, sans-serif;
+    font-family: 'raleway', helvetica, sans-serif;
 
 }
 
@@ -1010,6 +1052,7 @@ font-family: 'kito', helvetica, sans-serif;
     width: 100%;
     max-width: 1220px;
     justify-content: center;
+
 }
 
 .introText
@@ -1078,14 +1121,7 @@ font-family: 'kito', helvetica, sans-serif;
     opacity:0.6
 }
 
-.nashImages
-{
-  display: flex;
-  margin: 0 auto;
-  margin-top: 25px;
-  background: none;
-  border: none;
-}
+
 
 .modal {
   position: fixed;
@@ -1174,7 +1210,7 @@ font-family: 'kito', helvetica, sans-serif;
     display: flex;
     margin: 0 auto;
     padding: 15px;
-    font-family: 'Teko', helvetica, sans-serif;
+    font-family: 'raleway', helvetica, sans-serif;
 }
 
 #contact-form label
@@ -1249,7 +1285,7 @@ font-family: 'kito', helvetica, sans-serif;
 /*PORTFOLIO PAGE*/
 
 .portprojectHeader {
-  font-family: 'Teko', helvetica, sans-serif;
+  font-family: 'raleway', helvetica, sans-serif;
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -1306,7 +1342,7 @@ font-family: 'kito', helvetica, sans-serif;
 .team_headshot_text {
   display: flex;
   flex-direction: row;
-  font-family: 'Teko', helvetica, sans-serif;
+  font-family: 'raleway', helvetica, sans-serif;
   font-size: 32px;
   font-weight: bold;
   color: white;
