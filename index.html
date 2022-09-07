@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <!--still need to add kiro font or similar somehow..-->
+    <link rel="stylesheet" href="https://use.typekit.net/xmp8rmx.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+</head>
+<body>
+    <div id="siteContainer"> <!-- site container begins -->
+        <h1 class="hidden">Home Page</h1>
+        <div class="header">
+                <h2 class="hidden">Header</h2>
+                    <img class="logo" src="images/LogoNash.svg" alt="Main Logo">
+                <div class="mobileNav">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact Us</a>
+                    </div>
+                    <span onclick="openNav()"><img src="images/burger.svg" alt="Hamburger Menu" width="50" height="50"></span>
+                </div>
+                <h2 class="hidden">Logo</h2>
+                <nav class="topNav">
+                    <h2 class="hidden">Top Navigation</h2>
+                        <ul>
+                            <li> <a href="index.html">Home</a></li>
+                            <li> <a href="about.html">About</a></li>
+                            <li> <a href="portfolio.html">Portfolio</a></li>
+                            <li> <a href="contact.html">Contact</a></li>
+                        </ul>
+                </nav>
+            </div>
+
+
+        <div class="video_player"> <!-- feature video begins -->
+            <h2 class="hidden">Video Feature</h2>
+                <video class="promoVid" width="400" autoplay controls
+                    src="images/promovid_final.mp4">
+                </video>
+
+        </div> <!-- feature video ends -->
+        <section id="home_text">
+        <div class="home_intro"> <!-- home intro text begins -->
+            <h2 class="hidden">Intro Text</h2>
+            <p class="introText">Welcome to our design company, a creative team of designers, video editors,
+                and web designers that are devoted to their craft. This group of
+                creators has the passion to create and the passion to
+                satisfy our clients with worthwhile projects</p>
+        </div> <!-- home intro text ends -->
+
+        <section class="portfolio_home_feature"> <!-- portfolio home feature begins -->
+            <h2 class="hidden">Feature Pieces</h2>
+            <div class="secondaryContent">
+                <a href="feature.html"><img src="images/featureLink.jpg" alt="link to feature page"></a>
+            </div>
+            <h2>CLICK IMAGE FOR FEATURE PAGE</h2>
+            <p>This is our description of the feature item.</p>
+        </section>
+      </section>
+
+        <!-- FOOTER -->
+
+        <footer class="footer_container"> <!--footer begins -->
+            <div class="footer_nav">
+                <h2 class="hidden">Footer</h2>
+                <div>
+                    <ul class="footer_nav_menu">
+                        <li> <a href="index.html" class="footer_nav_item">Home</a> </li>
+                        <li> <a href="about.html" class="footer_nav_item" >About</a> </li>
+                        <li> <a href="portfolio.html" class="footer_nav_item">Portfolio</a> </li>
+                        <li> <a href="contact.html" class="footer_nav_item">Contact</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; design company 2022</p>
+            </div>
+        </footer> <!-- footer ends -->
+    </div> <!-- site container ends -->
+    <script src="js/main.js"></script>
+</body>
+</html>

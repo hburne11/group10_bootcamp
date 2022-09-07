@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://use.typekit.net/xmp8rmx.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+</head>
+<body>
+    <div id="siteContainer"> <!-- site container begins -->
+        <div class="header">
+                <h2 class="hidden">Header</h2>
+                    <img class="logo" src="images/LogoNash.svg" alt="Main Logo">
+                <div class="mobileNav">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <span onclick="openNav()"><img src="images/burger.svg" alt="Hamburger Menu" width="50" height="50"></span>
+                </div>
+                <h2 class="hidden">Logo</h2>
+                <nav class="topNav">
+                    <h2 class="hidden">Top Navigation</h2>
+                        <ul>
+                            <li> <a href="index.html">Home</a></li>
+                            <li> <a href="about.html">About</a></li>
+                            <li> <a href="portfolio.html">Portfolio</a></li>
+                            <li> <a href="contact.html">Contact Us</a></li>
+                        </ul>
+                </nav>
+        </div>
+
+    <div class="team_headshots"> <!--team headshot begins-->
+    <h2 class="hidden">Team Headshots</h2>
+       <!-- <div class="headshotNat">
+           <img src="images/natashaHeadshot.png" alt="Natasha Adler" class="headshot">
+           <p class="headshot_text">Natasha Adler</p>
+        </div>
+        <div class="headshotArko">
+           <img src="images/arkoHeadshot.png" alt="Arko Roychowdhury" class="headshot">
+           <p class="headshot_text">Arko Roychowdhury</p>
+        </div>
+        <div class="headshotSasha">
+           <img src="images/sashaHeadshot.png" alt="Sasha Ahrens" class="headshot">
+           <p class="headshot_text">Sasha Ahrens</p>
+        </div>
+        <div class="headshotHayden">
+           <img src="images/haydenHeadshot.png" alt="Hayden Burnell" class="headshot">
+           <p class="headshot_text">Hayden Burnell</p>
+       </div> -->
+   </div>
+
+    <div id="contact-form">
+        <h3 class="hidden">Form</h3>
+            <form action="form.php" method="post">
+                <label for="name">Name: (required)</label>
+                <input class="name" type="text" required id="name">
+            <br>
+                <div class="emailFull">
+                <label class="Etext" for="email">Email:</label>
+                <input class="Email" type="email" required id="email">
+                </div>
+            <br>
+                <div class="phoneFull">
+                <label for="phone">Phone: (required)</label>
+                <input class="telePhone" type="tel" required id="phone">
+                </div>
+            <br>
+                <label class="commentLabel">Type Your Message Here</label>
+                <textarea class="comments" required></textarea>
+            <br>
+                <input class="formButton" type="submit" value="Submit">
+            </form>
+    </div>
+
+        <footer class="footer_container"> <!--footer begins -->
+            <div class="footer_nav">
+                <h2 class="hidden">Footer</h2>
+                <div>
+                    <ul class="footer_nav_menu">
+                        <li> <a href="index.html" class="footer_nav_item">Home</a> </li>
+                        <li> <a href="about.html" class="footer_nav_item" >About</a> </li>
+                        <!-- <li> <a href="/feature.html" class="footer_nav_item">Feature</a> </li> -->
+                        <li> <a href="portfolio.html" class="footer_nav_item">Portfolio</a> </li>
+                        <li> <a href="contact.html" class="footer_nav_item">Contact</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; design company 2022</p>
+            </div>
+        </footer> <!-- footer ends -->
+
+    </div> <!-- site container ends -->
+    <script src="js/main.js"></script>
+</body>
+</html>
