@@ -51,7 +51,7 @@ p {
 }
 
 main {
-  height: 500px;
+  height: 600px;
   background-color: var(--purple);
 }
 
@@ -118,6 +118,10 @@ p {
   position: relative;
 }
 
+.social-copy {
+  font-size: 0.75rem;
+}
+
 /* ---------------heather stlye------------------ */
 .heather-style {
   padding-top: 0.5rem;
@@ -135,8 +139,12 @@ p {
   justify-content: center;
 }
 
+.social p {
+  font-size: 0.75rem;
+}
+
 .social img {
-  height: 1rem;
+  height: 1.75rem;
   padding: 1rem 0.5rem;
 }
 
@@ -203,6 +211,15 @@ footer {
 .foot-style a {
   font-size: 13px;
   color: var(--light);
+}
+
+.foot-address img {
+  width: 16px;
+}
+.foot-address p {
+  line-height: 1rem;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
 }
 
 /* ------------end of footer------------ */
@@ -417,8 +434,8 @@ img {
 
   .footer-grid {
     display: grid;
-    grid-column: 1 / span 2;
-    grid-template-columns: repeat(3, 1fr);
+    grid-column: 2 / span 2;
+    grid-template-columns: repeat(3, 2fr);
     justify-content: space-evenly;
     row-gap: 2em;
     column-gap: 2em;
@@ -553,7 +570,7 @@ img {
     .footer-grid {
       display: grid;
       grid-column: 2 / span 2;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       justify-content: space-evenly;
       row-gap: 2em;
       column-gap: 2em;
@@ -561,16 +578,28 @@ img {
     }
 
     #foot-search {
-      grid-column: 1 / span 2;
+      grid-column: 2 / span 2;
       grid-row: 1;
     }
     #foot-links {
-      grid-column: 2;
-      grid-row: 2;
+      grid-column: 4;
+      grid-row: 1;
     }
     #foot-orbit {
       grid-column: 1;
-      grid-row: 2;
+      grid-row: 1;
+    }
+
+    .foot-address {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    #button {
+      margin-bottom: 1rem;
+      margin: 1rem 3rem 1rem 3rem;
+      /* align-items: center; */
     }
     .copyright p {
       padding: 0;
@@ -589,10 +618,6 @@ img {
   /* -------------------desktop querry-----------------------------------============= */
   @media screen and (min-width: 1024px) {
     /* start main page */
-
-    .dynamic-size {
-      height: 500px;
-    }
 
     /* end main page */
 
@@ -683,11 +708,6 @@ img {
       height: 280px;
     }
 
-    .hot-purchaseCopy {
-      top: 40px;
-      left: 270px;
-    }
-
     .four-items {
       display: grid;
       grid-column: 2 / span 2;
@@ -724,7 +744,7 @@ img {
       /* align-items: center; */
     }
     .foot-style {
-      padding: 3rem 0 3rem 0;
+      /* padding: 3rem 0 3rem 0; */
     }
 
     /* align-items: center; */
