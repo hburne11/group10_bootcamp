@@ -32,7 +32,8 @@ html, body {
 .logo
 {
     display: block;
-    width: 50%;
+    width: 15%;
+    height: 15%;
     margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -913,9 +914,14 @@ border-bottom-width: thick;
 
 .logo
 {
-    display: flex;
-    margin-left: 0px;
-    /* margin-right: 400px; */
+  display: block;
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left:
+
 }
 
 .topNav a
