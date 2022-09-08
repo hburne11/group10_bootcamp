@@ -7,7 +7,7 @@ box-sizing: border-box;
 }
 
 body{
-  font-family: 'raleway';
+  font-family: 'Poppins';
 
 }
 
@@ -25,7 +25,7 @@ nav{
 }
 
 label.logo{
-  font-family: "raleway";
+  font-family: "Poppins";
   color: white;
   font-size: 3px;
   line-height: 80px;
@@ -44,7 +44,7 @@ nav ul li{
 }
 nav ul li a{
   color: white;
-  font-family: "Raleway", helvetica, sans-serif;
+  font-family: "Poppins", helvetica, sans-serif;
   font-size: 22px;
   padding: 7px 13px;
   border-radius: 3px;
@@ -70,6 +70,46 @@ a:hover{
   display: none;
 }
 
+.aboutUs{
+
+background: transparent linear-gradient(180deg, #6735F9 0%, #341B7D 100%) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-707070);
+}
+
+.aboutUs h2{
+  padding: 200px 50px 200px 200px;
+  color: white;
+  font-family: "Poppins", helvetica, sans-serif;
+  font-size: 42px;
+
+  border-radius: 3px;
+  font-weight: bold;
+
+}
+
+.aboutDesc {
+font-family: "Poppins", helvetica, sans-serif;
+font-weight: bold;
+color: #1E2037;
+text-align: center;
+letter-spacing: 0px;
+font-size: 42px;
+opacity: 1;
+margin-top: 35px;
+margin-bottom: 20px;
+}
+
+.aboutDesc2 {
+font-family: "Poppins", helvetica, sans-serif;
+color: #1E2037;
+text-align: center;
+letter-spacing: 0px;
+font-size: 22px;
+opacity: 1;
+
+}
+
+
 @media screen and (max-height: 450px){
 
   .promoVid
@@ -79,16 +119,29 @@ a:hover{
       margin-top:50px;
       width: 80%;
   }
+
+  .introText2 {
+  font-family: 'Poppins', helvetica, sans-serif;
+  font-weight: 80;
+  color: #1E2037;
+  text-align: center;
+  letter-spacing: 0px;
+  font-size: 16px;
+  opacity: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  }
   .portfolio_home_feature h2{
     color: black;
-    font-family: 'raleway', helvetica, sans-serif;
+    font-family: 'Poppins', helvetica, sans-serif;
     font-size: 24px;
     text-align: center;
     margin-bottom: 50px;
   }
   .portfolio_home_feature p
   {
-    font-family: 'raleway', helvetica, sans-serif;
+    font-family: 'Poppins', helvetica, sans-serif;
     font-size: 24px;
       color: #fff;
       font-size: 14px;
@@ -124,21 +177,36 @@ a:hover{
       width: 60%;
       height: 60%;
   }
+.home_intro{
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+opacity: 1;
+  padding: 100px;
 
-.introText
-  {
-      color: black;
-      margin-top: 75px;
-      margin-bottom: 75px;
-      font-family: 'raleway', helvetica, sans-serif;
-      font-size: 30px;
-      margin-left: 100px;
-      margin-right: 100px;
-      text-align: center;
-      line-height: 45px;
-      padding: 25px;
-      border-top: 2px solid #ffffff;
-      border-bottom: 2px solid #ffffff;
+}
+
+  .introText {
+  font-family: "Poppins", helvetica, sans-serif;
+  font-weight: bold;
+  color: #1E2037;
+  text-align: center;
+  letter-spacing: 0px;
+  font-size: 42px;
+  opacity: 1;
+
+  margin-bottom: 20px;
+
+  }
+
+  .introText2 {
+  font-family: 'Poppins', helvetica, sans-serif;
+  font-weight: 80;
+  color: #1E2037;
+  text-align: center;
+  letter-spacing: 0px;
+  font-size: 22px;
+  opacity: 1;
+  padding-left: 200px;
+  padding-right: 200px;
 
   }
 
@@ -151,15 +219,17 @@ a:hover{
 }
 
 .main h2{
-  font-family: 'raleway', helvetica, sans-serif;
-    color: black;
+  font-family:'Poppins', helvetica, sans-serif;
+  font-weight: bold;
+
+  color: #25273C;
     font-size: 44px;
     margin-bottom: 25px;
 }
 
 .main h3{
-  font-family: 'raleway', helvetica, sans-serif;
-    color: purple;
+  font-family: 'Poppins', helvetica, sans-serif;
+  color: #6735F9;
     font-size: 22px;
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -167,7 +237,7 @@ a:hover{
 }
 
 .main p{
-  font-family: 'raleway', helvetica, sans-serif;
+  font-family: 'Poppins', helvetica, sans-serif;
     color: black;
     font-size: 18px;
 }
@@ -183,19 +253,19 @@ a:hover{
   margin-left: 200px;
   width: 150%;
   height: 150%;
-  background: purple;
+  background: #6735F9;
 }
 
   .portfolio_home_feature h2{
     color: black;
-    font-family: 'raleway', helvetica, sans-serif;
+    font-family: 'Poppins', helvetica, sans-serif;
     font-size: 24px;
     text-align: center;
     margin-bottom: 50px;
   }
   .portfolio_home_feature p
   {
-    font-family: 'raleway', helvetica, sans-serif;
+    font-family: 'Poppins', helvetica, sans-serif;
     font-size: 24px;
       color: #fff;
       font-size: 14px;
@@ -203,6 +273,131 @@ a:hover{
       margin-right: 50px;
       margin-bottom: 25px;
   }
+
+  .flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .profile
+  {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: 30%;
+    max-width: 1920px;
+    max-height: 300px;
+    background:red 0% 0% no-repeat padding-box;
+    border-radius: 31px;
+    opacity: 1;
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.3s;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .codiImages{
+    background-color: white;
+    border: none
+  }
+
+  .profile:hover {
+      opacity:0.6
+  }
+
+
+
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 5px solid white;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: #25273C;
+    color: white;
+    width: 800px;
+    max-width: 80%;
+    font-family: "Poppins", helvetica, sans-serif;
+  }
+
+  .modal.active {
+    transform: translate(-50%, -50%);
+  }
+
+  .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+  }
+
+  .modal-header img{
+    width: 180px;
+    height: 200px;
+  }
+
+  .modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+  }
+
+  .memberName {
+    padding: 10px 15px;
+    font-size: 2rem;
+    text-decoration: underline;
+  }
+
+  .modal-body {
+    padding: 10px 15px;
+    font-size: 1.3rem;
+  }
+
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+.aboutAd{
+margin-top: 55px;
+
+
+}
+.aboutAd img{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
 
   .footer_container{
       display: flex;
@@ -213,7 +408,7 @@ a:hover{
       height: 180px;
       width: 100%;
       max-width: 1920px;
-      font-family: 'raleway', helvetica, sans-serif;
+      font-family: 'Poppins', helvetica, sans-serif;
 
   }
 
@@ -273,18 +468,35 @@ a:hover{
 
   .introText
   {
+    display: flex;
+    justify-content: center;
+    align-items:
       color: black;
-      margin-top: 75px;
-      margin-bottom: 75px;
-      font-family: 'raleway', helvetica, sans-serif;
-      font-size: 16px;
-      margin-left: 50px;
-      margin-right: 50px;
+      margin-top: 45px;
+      margin-bottom: 45px;
+      font-family: 'Poppins', helvetica, sans-serif;
+      font-size: 36px;
+      margin-left: 73px;
+      ma
       text-align: center;
       line-height: 25px;
-      padding: 25px;
+
       border-top: 1px solid #ffffff;
       border-bottom: 1px solid #ffffff;
+  }
+  .introText2 {
+  font-family: 'Poppins', helvetica, sans-serif;
+  font-weight: 80;
+  color: #1E2037;
+  text-align: center;
+  letter-spacing: 0px;
+  font-size: 22px;
+  opacity: 1;
+  padding-left: 70px;
+  padding-right: 0px;
+  margin-left: 63px;
+  margin-right: 63px;
+
   }
   .checkbtn{
     display: block;
