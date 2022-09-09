@@ -148,7 +148,7 @@ p {
 }
 .headline h3 {
   color: var(--gray);
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 /* ---------------heather stlye------------------ */
@@ -371,6 +371,7 @@ footer {
 }
 
 .success {
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -399,24 +400,24 @@ footer {
   position: absolute;
   color: var(--lite);
   background-color: var(--purple);
-  bottom: -100px;
-  left: 50%;
-  right: 0;
+  bottom: -10px;
+  left: 5px;
+  right: 5px;
 }
 
 .dynamic-copy h3 {
   margin-left: 1rem;
-  margin-top: 2rem;
-  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
 }
 
 .dynamic-copy h4 {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
 }
 
 .dynamic-copy p {
-  margin: 1rem 0;
-  font-size: 0.7rem;
+  margin: 0.5rem 0;
+  font-size: 0.6rem;
   line-height: 1rem;
 }
 
@@ -670,6 +671,33 @@ img {
 
     .hide3 {
       display: none;
+    }
+    .headline h3 {
+      color: var(--gray);
+      font-size: 2.5 rem;
+    }
+
+    .dynamic-copy h3 {
+      margin-left: 1rem;
+      margin-top: 1rem;
+      font-size: 1rem;
+    }
+
+    .dynamic-copy h4 {
+      font-size: 0.75rem;
+    }
+
+    .dynamic-copy p {
+      margin: 0.5rem 0;
+      font-size: 0.7rem;
+      line-height: 1rem;
+    }
+
+    .dynamic-copy {
+      border-radius: 30px 30px 100px 30px;
+      bottom: -100px;
+      left: 50%;
+      right: 0;
     }
 
     .one-item {

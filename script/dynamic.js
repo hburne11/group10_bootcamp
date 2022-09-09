@@ -9,21 +9,27 @@
   const profile4 = document.querySelector("#profilFour"); //profile 4
   const dynaTeam = [
     [
-      "Vanilla Orange",
-      `Vanilla and Orange Flavor`,
-      `The sweetness of an orange paired with the smoothness of vanilla are a match made in flavor heaven. Bright and bold, there's simply no other combination like it. Try it today!`,
+      "Hayden Burnell",
+      `3D Specialist`,
+      `asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asd`,
     ],
 
     [
-      "Blueberry Mellon",
-      `Blueberry and Melon Flavors`,
-      `The blueberry flavor comes through first, followed by the watermelon. The taste is authentic, and the first sip transports you to the awesome warmness of the tropical countries.`,
+      "Hei Yan Chow",
+      `Product Designer`,
+      `asfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas asdfasdfas lasdfj asd sdlfkja asdlkf asd`,
     ],
 
     [
-      "Raspberry Citrus",
-      `Raspberry and Citrus Flavor`,
-      `A green, acid and sweet natural profile. It evokes sensations of fresh juicy fruit with slightly crunchy floral undertones blended with woody notes taste at the end.`,
+      "Jerome Fernandez",
+      `UX/UI Designer`,
+      `asdfasdfas lajasld sdlfkja asdlkf asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas asdfasdfas lasdfj asdfljasld sdja asdlkf asd.`,
+    ],
+
+    [
+      "Cristine Noronha",
+      `3D Specialist`,
+      `asdfasdfas lasdfj asdfljasld sdlfkja asdlkf  fas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asd.`,
     ],
   ];
 
@@ -46,8 +52,13 @@
     document.getElementById("defaultImg").src = "images/dynamic03.jpg";
   }
 
+  function changeImageProd4() {
+    document.getElementById("defaultImg").src = "images/dynamic04.jpg";
+  }
+
   buttons.forEach((button) => button.addEventListener("click", showBioInfo));
   profile1.addEventListener("click", changeImageProd1);
   profile2.addEventListener("click", changeImageProd2);
   profile3.addEventListener("click", changeImageProd3);
+  profile4.addEventListener("click", changeImageProd4);
 })();
