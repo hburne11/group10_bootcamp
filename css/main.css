@@ -39,20 +39,22 @@ p {
   padding: 0;
 }
 
+.btn-purple {
+  background-color: var(--purple);
+}
+
+.btn-dark {
+  background-color: var(--dark);
+}
+
 .contact-us {
   margin: 1rem;
   font-size: 0.7rem;
   color: var(--lite);
-  background-color: var(--purple);
   border-radius: 7px;
   padding: 5px 25px;
   font-weight: var(--fw-bold);
   cursor: pointer;
-}
-
-main {
-  height: 600px;
-  background-color: var(--purple);
 }
 
 a {
@@ -90,6 +92,10 @@ p {
   font-weight: var(--fw-semi-bold);
   background: linear-gradient(0deg, #2f8ec5 0%, #185372 100%);
   border: none;
+  letter-spacing: 3px;
+  margin-left: 0.8rem;
+  margin-top: 1rem;
+  padding: 10px 25px;
 }
 
 .custom-btn:hover {
@@ -232,7 +238,27 @@ footer {
   cursor: pointer;
   background-color: #9befe3;
 }
+
+.hero-image {
+  background-color: var(--purple);
+  color: white;
+}
+.main-copy {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .main-copy h2 {
+  line-height: 3.5rem;
+  font-weight: var(--fw-semi-bold);
+  font-size: 2.81rem;
+}
+
+.main-copy p {
+  margin-top: 1rem;
+  font-size: 0.7rem;
 }
 
 .video-placeholder {
