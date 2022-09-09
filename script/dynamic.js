@@ -15,7 +15,7 @@
     ],
 
     [
-      "Hei Yan Chow",
+      "Hei Yan Chow (Joanna)",
       `Product Designer`,
       `Born and raised in Hong Kong, Joanna has a background in cultural management and art programme coordination. She has lived in London, attended Fanshawe College where she studied Interactive Media Design. She is currently a UX/UI designer at CODI.`,
     ],
