@@ -430,6 +430,7 @@ footer {
   display: flex;
 }
 .thumbnails img {
+  margin-right: 0.3rem;
   width: 93px;
   height: 93px;
   object-fit: cover;
