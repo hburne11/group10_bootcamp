@@ -10,26 +10,26 @@
   const dynaTeam = [
     [
       "Hayden Burnell",
-      `3D Specialist`,
-      `asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asd`,
+      `UX/UI Designer`,
+      `A small town guy with big city dreams, Hayden adds a blend of creativity and leadership to CODI. Only 22 years old, he has already conquered multiple challenges he has faced in his young life. He pursued studying Interactive Media Design at Fanshawe College in London, Ontario, where he discovered his dream of Front-End Development. Hayden likes to take simple ideas and enhance them into something unimaginable.`,
     ],
 
     [
       "Hei Yan Chow",
       `Product Designer`,
-      `asfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas asdfasdfas lasdfj asd sdlfkja asdlkf asd`,
+      `Born and raised in Hong Kong, Joanna has a background in cultural management and art programme coordination. She has lived in London, attended Fanshawe College where she studied Interactive Media Design. She is currently a UX/UI designer at CODI.`,
     ],
 
     [
       "Jerome Fernandez",
-      `UX/UI Designer`,
-      `asdfasdfas lajasld sdlfkja asdlkf asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas asdfasdfas lasdfj asdfljasld sdja asdlkf asd.`,
+      `Web Developer`,
+      ``,
     ],
 
     [
       "Cristine Noronha",
-      `3D Specialist`,
-      `asdfasdfas lasdfj asdfljasld sdlfkja asdlkf  fas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asdfasdfas asdfasdfas lasdfj asdfljasld sdlfkja asdlkf asd.`,
+      `Graphic Designer`,
+      `Cristine is a graphic designer. Her greatest interest is solving problems in visual communication for people. She likes to study user experience and interface design. When she is not working she loves to draw, try new types of coffee and desserts..`,
     ],
   ];
 
@@ -41,11 +41,11 @@
   }
 
   function changeImageProd1() {
-    document.getElementById("defaultImg").src = "images/dynamic01.jpg";
+    document.getElementById("defaultImg").src = "images/hayden_photo33.jpeg";
   }
 
   function changeImageProd2() {
-    document.getElementById("defaultImg").src = "images/dynamic02.jpg";
+    document.getElementById("defaultImg").src = "images/joanna_photo22.jpg";
   }
 
   function changeImageProd3() {
@@ -53,7 +53,7 @@
   }
 
   function changeImageProd4() {
-    document.getElementById("defaultImg").src = "images/dynamic04.jpg";
+    document.getElementById("defaultImg").src = "images/cristine_photo2.jpg";
   }
 
   buttons.forEach((button) => button.addEventListener("click", showBioInfo));
