@@ -1,5 +1,5 @@
 :root {
-  --dark: #25273c;
+  --dark: #10054d;
   --lime: #d4f640;
   --purple: #6735f9;
   --gray: #707070;
@@ -107,6 +107,29 @@ p {
   margin-left: 0.8rem;
   margin-top: 1rem;
   padding: 10px 25px;
+}
+.headboard {
+  background-color: var(--dark);
+}
+
+.relative {
+  position: relative;
+}
+
+.head-copy {
+  position: absolute;
+  top: 40%;
+  color: var(--lite);
+  left: 50px;
+}
+.head-copy h2 {
+  font-size: 1.5rem;
+}
+
+.head-copy h3 {
+  font-weight: var(--fw-regular);
+  margin-left: 1rem;
+  font-size: 0.7rem;
 }
 
 .custom-btn:hover {
@@ -657,9 +680,14 @@ img {
       grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
     }
 
-    .video-play-button {
-      top: 88%;
-      left: 10%;
+    /* general */
+    .head-copy h2 {
+      font-size: 2rem;
+    }
+
+    .head-copy h3 {
+      font-weight: var(--fw-regular);
+      font-size: 0.8rem;
     }
 
     .hide1 {
