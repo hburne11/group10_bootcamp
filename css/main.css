@@ -389,6 +389,52 @@ footer {
 
 /* -------------------------end of main page */
 
+/*  --about */
+.thumb-main {
+  position: relative;
+}
+
+.dynamic-copy {
+  border-radius: 30px 30px 100px 30px;
+  position: absolute;
+  color: var(--lite);
+  background-color: var(--purple);
+  bottom: -100px;
+  left: 50%;
+  right: 0;
+}
+
+.dynamic-copy h3 {
+  margin-left: 1rem;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.dynamic-copy h4 {
+  font-size: 0.75rem;
+}
+
+.dynamic-copy p {
+  margin: 1rem 0;
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+
+.thumb-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.thumbnails {
+  display: flex;
+}
+.thumbnails img {
+  width: 93px;
+  height: 93px;
+  object-fit: cover;
+}
+
 img {
   transition: transform 0.5s cubic-bezier(0.7, -0.39, 0.31, 1.38);
 }
@@ -632,6 +678,15 @@ img {
     }
 
     .two-items {
+      display: grid;
+      grid-column: 2 / span 2;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: space-evenly;
+      /* row-gap: 2em;
+      column-gap: 2em; */
+    }
+
+    .grid-thumb {
       display: grid;
       grid-column: 2 / span 2;
       grid-template-columns: repeat(2, 1fr);
