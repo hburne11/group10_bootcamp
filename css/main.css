@@ -596,10 +596,9 @@ img {
 #contact-form {
   width: 400px;
   background-color: #ffffff;
-  margin: 0px auto;
   padding: 40px 40px 35px 40px;
   border-radius: 20px;
-  -moz-border-radius: 0 0 5px 5px;
+  margin-bottom: 2rem;
 }
 
 input[type="text"] {
@@ -644,6 +643,13 @@ textarea {
   margin: 5px 0px 0px 0px;
   border-radius: 3px;
   -moz-border-radius: 5px;
+}
+
+.contact-img img {
+  width: 400px;
+  border-radius: 100px 20px 20px 20px;
+  filter: drop-shadow(-40px -50px #ead9c0);
+  margin-bottom: 1rem;
 }
 
 /*  -------- querry  mobile----------------------- */
