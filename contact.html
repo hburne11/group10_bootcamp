@@ -73,7 +73,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="contact-bg">
         <div class="two-items">
           <div class="info-main">
             <h3>Ready to get our <br>marketing service</h3>
@@ -103,7 +103,25 @@
                 www.codi.com.ca</p>
             </div>
           </div>
+      </section>
 
+      <section class="contact-bg">
+        <div class="two-items">
+          <div>
+            <img src="images/contact-img.jpg" alt="">
+          </div>
+          <div>
+            <form id="contact-form" method="POST" action="processForm.php" name="ContactForm">
+              <h2> Connect with us! </h2>
+            
+              <input type="text" id="name" name="name" placeholder="What's this about?" style="color: #fff;" onfocus="if (this.value == '90') {this.value=''; this.style.color='#000';}" required tabindex="1" /> 
+              <textarea name="message" id="message" tabindex="2"></textarea> 
+              <input type="text" id="name" name="name" placeholder="First and last name" style="color: #fff;" onfocus="if (this.value == '90') {this.value=''; this.style.color='#000';}" required tabindex="3" /> 
+              <input type="text" id="email" name="email" placeholder="yourname@domain.com" required tabindex="4" />
+              <input name="submit" type="submit" id="submit" tabindex="5" value="Submit" />
+             </form>
+          </div>
+        </div>
       </section>
 
 

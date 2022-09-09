@@ -4,6 +4,8 @@
   --lime: #d4f640;
   --purple: #6735f9;
   --gray: #707070;
+  --lightgray: #ececec;
+
   --lite: #ffffff;
   --ff-primary: "Poppins", sans-serif;
   --ff-body: var(--ff-primary);
@@ -545,8 +547,7 @@ img {
 
 /*                        --contact */
 .info-box {
-  margin-right: 2rem;
-  margin-top: 1rem;
+  margin: 1rem 0 6rem 2rem;
   background-color: var(--gray-purple);
   padding: 3rem 2rem;
   border-radius: 70px 70px 160px 70px;
@@ -586,6 +587,63 @@ img {
 .info-flex p {
   font-size: 12px;
   margin-bottom: 1rem;
+}
+
+.contact-bg {
+  background-color: var(--lightgray);
+}
+
+#contact-form {
+  width: 400px;
+  background-color: #ffffff;
+  margin: 0px auto;
+  padding: 40px 40px 35px 40px;
+  border-radius: 20px;
+  -moz-border-radius: 0 0 5px 5px;
+}
+
+input[type="text"] {
+  display: inline;
+  width: 400px;
+  font-size: 14px;
+  background-color: #eff3ff;
+  font-family: "Lato";
+  color: white;
+  padding: 15px 0px 15px 10px;
+  margin: 5px 0px 5px 0px;
+  border-radius: 10px;
+  -moz-border-radius: 5px;
+}
+
+input[type="submit"] {
+  display: inline;
+  /* width: 410px; */
+  font-size: 14px;
+  background-color: var(--purple);
+  color: #fff;
+  padding: 5px 20px;
+  margin: 10px 0px 0px 0px;
+  border-radius: 10px;
+  -moz-border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--dark);
+}
+
+textarea {
+  display: inline;
+  width: 400px;
+  max-width: 400px;
+  height: 100px;
+  max-height: 300px;
+  font-size: 14px;
+  background-color: #eff3ff;
+  color: #fff;
+  padding: 5px 0px 5px 10px;
+  margin: 5px 0px 0px 0px;
+  border-radius: 3px;
+  -moz-border-radius: 5px;
 }
 
 /*  -------- querry  mobile----------------------- */
