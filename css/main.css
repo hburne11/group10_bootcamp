@@ -213,6 +213,7 @@ footer {
   padding: 0;
   margin: 0;
   line-height: 2rem;
+  margin-top: 1rem;
 }
 
 #foot-links ul {
@@ -359,6 +360,27 @@ footer {
 
 .profile-name p {
   margin: 0;
+}
+
+.hide1 {
+  display: none;
+  margin-left: 3rem;
+}
+.hide2 {
+  display: none;
+}
+
+.success {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.success h2 {
+  color: var(--dark);
+  font-weight: var(--fw-semi-bold);
+  line-height: 1.8rem;
+  margin-bottom: 1rem;
 }
 
 /* -------------------------end of main page */
@@ -588,6 +610,17 @@ img {
       left: 10%;
     }
 
+    .hide1 {
+      display: block;
+    }
+    .hide2 {
+      display: block;
+    }
+
+    .hide3 {
+      display: none;
+    }
+
     .one-item {
       display: grid;
       grid-column: 2 / span 2;
@@ -630,26 +663,6 @@ img {
       column-gap: 2em;
     }
 
-    .latest-blog {
-      display: grid;
-      grid-column: 2 / span 2;
-
-      grid-template-columns: repeat(4, 1fr);
-      row-gap: 1rem;
-      column-gap: 1rem;
-      align-items: flex-start;
-    }
-
-    /* about grid */
-    .our-location {
-      display: grid;
-      grid-column: 2 / span 2;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(10, 1fr);
-      grid-column-gap: 1rem;
-      grid-row-gap: 1rem;
-    }
-
     .footer-grid {
       display: grid;
       grid-column: 2 / span 2;
@@ -658,6 +671,11 @@ img {
       row-gap: 2em;
       column-gap: 2em;
       align-items: center;
+    }
+
+    .success {
+      flex-direction: column;
+      align-items: flex-start;
     }
 
     #foot-search {
