@@ -3,9 +3,9 @@
   const productSub = document.querySelector(".teamInfo h4"); //members position
   const contents = document.querySelector(".detail"); // members detail
   const buttons = document.querySelectorAll(".bioSwitcher button"); //buttons
-  const profile1 = document.querySelector("#profileVanilla"); //profile 1
-  const profile2 = document.querySelector("#profileCitrus"); //profile 2
-  const profile3 = document.querySelector("#profileMelon"); //profile 3
+  const profile1 = document.querySelector("#profileOne"); //profile 1
+  const profile2 = document.querySelector("#profileTwo"); //profile 2
+  const profile3 = document.querySelector("#profileThree"); //profile 3
   const profile4 = document.querySelector("#profilFour"); //profile 4
   const dynaTeam = [
     [
