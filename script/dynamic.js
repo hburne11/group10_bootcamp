@@ -41,11 +41,11 @@
   }
 
   function changeImageProd1() {
-    document.getElementById("defaultImg").src = "images/hayden_photo33.jpeg";
+    document.getElementById("defaultImg").src = "images/dynamic01.jpg";
   }
 
   function changeImageProd2() {
-    document.getElementById("defaultImg").src = "images/joanna_photo22.jpg";
+    document.getElementById("defaultImg").src = "images/dynamic02.jpg";
   }
 
   function changeImageProd3() {
@@ -53,7 +53,7 @@
   }
 
   function changeImageProd4() {
-    document.getElementById("defaultImg").src = "images/cristine_photo2.jpg";
+    document.getElementById("defaultImg").src = "images/dynamic04.jpg";
   }
 
   buttons.forEach((button) => button.addEventListener("click", showBioInfo));
