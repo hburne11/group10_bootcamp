@@ -2,13 +2,13 @@
 A collection of creatives working on graphics, videos, and web design at Fanshawe College.
 
 # About
-This is a portfolio website for our 4 members; 
+This is a Design Agency Mockup for our 4 members; Hayden Burnell, Joanna Chow, Jerome Fernandez, and Cristine de Noronha.
 
 # Usage
 Once downloading the files, all you need is an internet browser to run our site.
 
 # Credits
-All credit belongs to our members; 
+All credit belongs to our members; Hayden Burnell, Joanna Chow, Jerome Fernandez, and Cristine de Noronha.
 
 # License
 
