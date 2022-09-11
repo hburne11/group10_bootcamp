@@ -51,6 +51,10 @@ p {
   background-color: var(--dark);
 }
 
+.btn-dark:hover {
+  background-color: var(--gray-purple);
+}
+
 .btn-lightP {
   background-color: #aa9afc;
 }
@@ -281,6 +285,7 @@ footer {
 /* ------------end of footer------------ */
 
 /* ---------------------main page */
+
 .buttonStyle {
   padding-top: 6px;
   border: 0;
@@ -294,6 +299,12 @@ footer {
   background-color: var(--purple);
   color: white;
 }
+.hero-image img {
+  margin-top: 1rem;
+  border-radius: 100px 20px 20px 20px;
+  filter: drop-shadow(-40px -20px #ead9c0);
+}
+
 .main-copy {
   margin-left: 1rem;
   display: flex;
@@ -347,6 +358,10 @@ footer {
   align-items: flex-start;
   border-radius: 19px;
 }
+.card-style img {
+  margin-bottom: 1rem;
+}
+
 .card-color-purple {
   background-color: #cec3fd;
 }
@@ -363,8 +378,23 @@ footer {
   background-color: #e2e2e2;
 }
 
-.card-testi h3 {
-  margin-top: 2rem;
+.card-testi p {
+  margin-top: 3rem;
+}
+
+.work-allign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work-process h3 {
+  font-size: 1rem;
+  margin-bottom: 4rem;
+}
+
+.work-process img {
+  width: 130px;
 }
 
 .profile-info {
@@ -458,7 +488,7 @@ footer {
 }
 
 .thumbnails img {
-  margin-right: 0.3rem;
+  /* margin-right: 0.3rem; */
   width: 93px;
   height: 93px;
   object-fit: cover;
@@ -471,10 +501,6 @@ footer {
   color: var(--lite);
   border: none;
   cursor: pointer;
-}
-
-#profileOne :hover {
-  background-color: #6735f9;
 }
 
 img {
@@ -514,6 +540,17 @@ img {
   color: var(--lime);
 }
 
+.profile-hover {
+  border-radius: 0 0 0 1rem;
+  padding-bottom: 1.5rem !important;
+  background-color: var(--lite);
+}
+
+.profile-hover:hover {
+  transition-duration: 0.4s;
+  background-color: #7449fb;
+}
+
 /* --gallery page                                                    */
 .gallery {
   margin: 0.5rem;
@@ -551,6 +588,23 @@ img {
 
 .photo:hover img {
   transform: scale(1.03);
+}
+
+.photo-dummy img {
+  width: 1100px;
+}
+
+.gallery-txt {
+  position: absolute;
+}
+
+.gallery-txt h3 {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+.gallery-txt p {
+  font-size: 0.75rem;
 }
 
 .photo-overlay {
@@ -760,11 +814,15 @@ textarea {
     left: 0;
     height: 52vh;
     width: 50%;
-    top: 77px;
-    background: var(--lime);
+    top: 86px;
+    background: var(--gray-purple);
     backdrop-filter: blur(0.5rem);
     justify-content: space-evenly;
     transition: transform 0.5s ease-in;
+  }
+
+  .nav-links a {
+    color: var(--lite);
   }
 
   .nav-active {
