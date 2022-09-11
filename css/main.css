@@ -456,8 +456,8 @@ footer {
   position: absolute;
   color: var(--lite);
   background-color: var(--purple);
-  bottom: -10px;
-  left: 5px;
+  bottom: 10px;
+  left: 235px;
   right: 5px;
 }
 
@@ -475,6 +475,7 @@ footer {
   margin: 0.5rem 0;
   font-size: 0.6rem;
   line-height: 1rem;
+  margin-bottom: 2rem;
 }
 
 .thumb-main img {
