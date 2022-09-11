@@ -47,12 +47,20 @@ p {
   background-color: var(--purple);
 }
 
+.btn-purple:hover {
+  transition: all 0.3s ease;
+  background-color: var(--lime);
+  color: var(--dark);
+}
+
 .btn-dark {
   background-color: var(--dark);
 }
 
 .btn-dark:hover {
-  background-color: var(--gray-purple);
+  transition: all 0.3s ease;
+  background-color: var(--lime);
+  color: var(--dark);
 }
 
 .btn-lightP {
@@ -65,11 +73,15 @@ p {
   background-color: #cde99e;
 }
 
+footer {
+  color: #cbc3f0 !important;
+}
+
 .contact-us {
   margin: 1rem;
   font-size: 0.7rem;
   color: var(--lite);
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 10px 30px;
   font-weight: var(--fw-bold);
   cursor: pointer;
@@ -246,6 +258,10 @@ footer {
   margin-top: 1rem;
 }
 
+#foot-links {
+  margin-top: 2rem;
+}
+
 #foot-links ul {
   list-style: none;
   padding: 0;
@@ -254,9 +270,8 @@ footer {
 }
 
 .copyright p {
-  color: var(--light);
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   padding: 0 0 1rem 0;
 }
 .foot-style {
@@ -274,9 +289,10 @@ footer {
 }
 
 .foot-address img {
-  width: 16px;
+  width: 22px;
 }
 .foot-address p {
+  /* text-align: left; */
   line-height: 1rem;
   font-size: 0.75rem;
   margin-bottom: 1rem;
@@ -1000,10 +1016,6 @@ textarea {
     grid-column: 1;
     grid-row: 2;
   }
-  #foot-orbit {
-    grid-column: 1;
-    grid-row: 3;
-  }
 
   #button {
     margin-bottom: 1rem;
@@ -1211,6 +1223,10 @@ textarea {
       display: flex;
       justify-content: flex-start;
       align-items: flex-start;
+    }
+
+    .foot-address p {
+      text-align: left;
     }
 
     #button {
