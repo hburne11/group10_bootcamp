@@ -66,11 +66,24 @@ p {
 .btn-lightP {
   background-color: #aa9afc;
 }
+
+.btn-lightP:hover {
+  transition: all 0.3s ease;
+  background-color: #806fd3;
+}
 .btn-flesh {
   background-color: #ebdac0;
 }
+
+.btn-flesh:hover {
+  transition: all 0.3s ease;
+  background-color: #c7b190;
+}
 .btn-green {
   background-color: #cde99e;
+}
+.btn-green:hover {
+  background-color: #b6d384;
 }
 
 footer {
@@ -232,6 +245,7 @@ nav li a {
 /* ----------------------End of Heather ====================================== */
 
 input {
+  /* color: #2f8ec5 !important; */
   padding: 0.6rem 10rem 0.6rem 1rem;
   margin-top: 1rem;
   background-color: #ffffff;
@@ -742,7 +756,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: var(--dark);
+  color: var(--dark);
+  background-color: var(--lime);
 }
 
 textarea {
@@ -753,7 +768,7 @@ textarea {
   max-height: 300px;
   font-size: 14px;
   background-color: #eff3ff;
-  color: #fff;
+  color: rgb(51, 51, 51);
   padding: 5px 0px 5px 10px;
   margin: 5px 0px 0px 0px;
   border-radius: 3px;
