@@ -1,148 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-    <!--still need to add kiro font or similar somehow..-->
-    <link rel="stylesheet" href="https://use.typekit.net/xmp8rmx.css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-    <link rel="stylesheet" href="css/reset.css" type="text/css">
-</head>
-<body>
-    <div id="siteContainer"> <!-- site container begins -->
-        <h1 class="hidden">Home Page</h1>
-        <div class="header">
-                <h2 class="hidden">Header</h2>
-                    <img class="logo" src="images/LogoNash.svg" alt="Main Logo">
-                <div class="mobileNav">
-                    <div id="mySidenav" class="sidenav">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <a href="index.html">Home</a>
-                        <a href="about.html">About</a>
-                        <a href="portfolio.html">Portfolio</a>
-                        <a href="contact.html">Contact Us</a>
-                    </div>
-                    <span onclick="openNav()"><img src="images/burger.svg" alt="Hamburger Menu" width="50" height="50"></span>
-                </div>
-                <h2 class="hidden">Logo</h2>
-                <nav class="topNav">
-                    <h2 class="hidden">Top Navigation</h2>
-                        <ul>
-                            <li> <a href="index.html">Home</a></li>
-                            <li> <a href="about.html">About</a></li>
-                            <li> <a href="portfolio.html">Portfolio</a></li>
-                            <li> <a href="contact.html">Contact</a></li>
-                        </ul>
-                </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <title>Codi agency</title>
+  </head>
+  <body class="site">
+    <h1 class="hidden">Codi agency</h1>
+    <a class="hidden" href="#content">Skip to content</a>
+
+    <header class="nav-grid heather-style">
+      <h2 class="hidden">Heather</h2>
+      <div class="burger">
+        <h3 class="hidden">Hamburger Menu</h3>
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <div class="logo">
+        <h3 class="hidden">codi logo</h3>
+        <div>
+          <img src="images/codi-logo.svg" alt="codi logo" />
+        </div>
+      </div>
+      <nav class="top-nav" aria-label="Main Navigation">
+        <h3 class="hidden">Main Navigation</h3>
+        <ul>
+          <li><a href="index.html" class="selected">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="social">
+        <h3 class="hidden">social links</h3>
+        <div>
+          <p class="contact-us btn-purple">Get a Qoute</p>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main" id="content">
+      <div>
+        <nav class="nav-links">
+          <h3 class="hidden">Mobile Navigation</h3>
+          <ul>
+            <li><a href="index.html" class="selected">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <section class="headboard">
+        <div class="one-item relative">
+          <img src="images/background.svg" alt="headboard" />
+          <div class="head-copy">
+            <h2>Portfolio</h2>
+            <h3>Home → Portfolio → Feature work</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="headline-margin">
+        <h2 class="hidden">services section</h2>
+        <div class="one-item headline">
+          <p>Feature Client</p>
+          <h3>Feature Project</h3>
+        </div>
+      </section>
+
+      <div class="feature-main">
+        <div class="one-item">
+          <img src="images/featured-main.jpg" alt="Orbitz hero image" />
+        </div>
+      </div>
+
+      <div class="feature-sample">
+        <div class="four-items">
+          <div class="photo">
+            <img src="images/featured-01.jpg" alt="sample 1" />
+          </div>
+          <div class="photo">
+            <img src="images/featured-02.jpg" alt="sample 2" />
+          </div>
+          <div class="photo">
+            <img src="images/featured-03.jpg" alt="sample 3" />
+          </div>
+          <div class="photo">
+            <img src="images/featured-04.jpg" alt="sample 4" />
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="two-items">
+          <div class="hidden"><h2>Product Details</h2></div>
+          <div class="feature-img">
+            <img src="images/featured-info.jpg" alt="orbitz copy image" />
+          </div>
+          <div class="feature-copy">
+            <div>
+              <h3>Orbiz Rebrand</h3>
+              <h4>3d Render / Branding</h4>
             </div>
-
-
-        <!--
-        <div class="mainPromo"> <!--portfolio feature 1 begins-->
-            <!-- <div class="portfolio_feature1_text">
-                <h3 class="projectHeader">Ahmedabad City Branding</h3>
-                <p class="projectPara">The Ahmedabad re-branding competition was an open design competition for graphic artists and design thinkers. The task was design a symbol for the city and develop a design language that shows in merchendise, city service apps/websites and stationary for the city's authorities.  </p>
-                <p class="projectPara">Consequentially, this graphic design exercise was a means to re-brand the city itself. The entire design language/colour palette was derived from the logo. Interestingly, the logo design exercise was a back and forth process to create a logo that doesn't just represent the city but allow its graphic elements to be used as a recipe for merchandise & stationary design.  </p>
+            <div>
+              <h3>Project Info</h3>
+              <h4>Client</h4>
+              <h5>Orbitz Corp.</h5>
+              <h4>Project Type</h4>
+              <h5>3D Render, Branding, Animation, Website</h5>
+              <h4>Location</h4>
+              <h5>London On</h5>
+              <h4>Project Date</h4>
+              <h5>August 10,2022</h5>
             </div>
-                <img class="featureImage" src="images/main.jpg" alt="image of the main logo">
-        </div> portfolio feature 1 begins-->
+          </div>
+        </div>
+      </section>
 
-      <!--IMAGE HOVER SECTION BEGINS-->
-        <!-- <div class="portfolio_feature2">
-            <div class="portfolio_feature2_img"> -->
-              <!--hover for image1-->
-              <!-- <div class="seconImageLeft">
-                  <img class="image_pic" src="images/blackShirt.jpg" alt="shirt">
-                    <div class="image_overlay image_overlay-mainBacky">
-                    <div class="image_head">Clothing</div>
-                    <p class="image_text">The theme clothing for the brand was designed by Nash and printed by the cottage industry set up by the government.</p>
-                    </div>
-              </div> -->
-
-              <!--hover for image2-->
-              <!-- <div class="seconImage">
-                  <img class="image_pic" src="images/stationary1.jpg" alt="shirt">
-                    <div class="image_overlay image_overlay-mainBacky">
-                    <div class="image_head">Office Stationary</div>
-                    <p class="image_text">Office Stationary is for use in government offices and for sale to the general public.</p>
-                    </div>
-              </div> -->
-
-              <!--hover for image3-->
-              <!-- <div class="seconImage">
-                  <img class="image_pic" src="images/phone1.jpg" alt="shirt">
-                    <div class="image_overlay image_overlay-mainBacky">
-                    <div class="image_head">City Transit App</div>
-                    <p class="image_text">The graphic design of the transit app for the bus & underground transit is based on the city symbol. </p>
-                    </div>
-              </div> -->
-                <!--<img class="secondaryImg1" src="images/blackShirt.jpg" alt="black t-shirt design">
-                <img class="secondaryImg2" src="images/threeShirts.jpg" alt="multiple t-shirts">
-                <img class="secondaryImg3" src="images/drawString.jpg" alt="drawstring bag design">
-                <img class="secondaryImg4" src="images/recordDisc.jpg" alt="vinyl record pattern">-->
+      <section>
+        <div class="two-items">
+          <div>
+            <div class="success">
+              <h2>Need a <br />successful <br />project?</h2>
+              <a href="contact.html"
+                ><p class="contact-us btn-purple">Contact Us</p></a
+              >
+              <div class="hide1">
+                <img src="images/man.png" alt="illustration guy" />
+              </div>
             </div>
+          </div>
 
-            <div class="portfolio_feature2_text">
-                <!--<p>Text goes here about the piece</p>-->
-            </div>
+          <div class="hide2">
+            <img src="images/woman.jpg" alt="illustration girl" />
+          </div>
+
+          <div class="hide3">
+            <img src="images/woman-2.jpg" alt="illutration combine" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot foot-style">
+      <div class="hidden"><h2>footer navigation</h2></div>
+      <div class="footer-grid custom-override">
+        <div id="foot-search">
+          <div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
         </div>
 
-        <!--IMAGE HOVER SECTION BEGINS-->
-          <!-- <div class="portfolio_feature2">
-              <div class="portfolio_feature2_img"> -->
-                <!--hover for image1-->
-                <!-- <div class="seconImageLeft">
-                    <img class="image_pic" src="images/busStop.jpg" alt="shirt">
-                      <div class="image_overlay image_overlay-mainBacky">
-                      <div class="image_head">Transit Spaces</div>
-                      <p class="image_text">Posters in bus stop & terminals, underground railway stations and airport are used to promote the re-designed brand for the city.</p>
-                      </div>
-                </div> -->
+        <div>
+          <nav class="logo">
+            <img src="images/codi-logo.svg" alt="codi logo" />
+          </nav>
 
-                <!--hover for image2-->
-                <!-- <div class="seconImage">
-                    <img class="image_pic" src="images/signage.jpg" alt="shirt">
-                      <div class="image_overlay image_overlay-mainBacky">
-                      <div class="image_head">City Signages</div>
-                      <p class="image_text">All signages of the city have been upgraded to the new design language. </p>
-                      </div>
-                </div> -->
+          <div>
+            <p class="social-copy">Innovate, include, inspire.</p>
+          </div>
+          <div class="social">
+            <div class="hidden"><h3>social links</h3></div>
+            <img src="images/social-fb.svg" alt="Facebook Address" />
+            <img src="images/social-twitter.svg" alt="Twitter address" />
+            <img src="images/social-insta.svg" alt="Instagram Adress" />
+          </div>
 
-                <!--hover for image3-->
-                <!-- <div class="seconImage">
-                    <img class="image_pic" src="images/bags.jpg" alt="shirt">
-                      <div class="image_overlay image_overlay-mainBacky">
-                      <div class="image_head">Eco-friendly Bags</div>
-                      <p class="image_text">The bags are made by school children as a means of collecting donations for old age homes.</p>
-                      </div> -->
-                </div>
-              </div>
-          </div> -->
+          <div class="copyright">
+            <p>Copyright © Codi 2022</p>
+          </div>
+        </div>
+        <div id="foot-links">
+          <div class="hidden"><h3>navigation links</h3></div>
+          <div class="foot-address">
+            <img src="images/icon-location.svg" alt="location icon" />
+            <p>1001 Fanshawe College Blvd, London, ON N5Y 5R6</p>
+          </div>
+          <div class="foot-address">
+            <img src="images/icon-phone.svg" alt="phone number icon" />
+            <p>519-532-510</p>
+          </div>
+          <div class="foot-address">
+            <img src="images/icon-email.svg" alt="email icon" />
+            <p>codi@gmail.com</p>
+          </div>
+          <div class="foot-address">
+            <img src="images/icon-web.svg" alt="website icon" />
+            <p>www.codi.com.ca</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-
-
-          <!-- FOOTER -->
-
-          <footer class="footer_container"> <!--footer begins -->
-              <div class="footer_nav">
-                  <h2 class="hidden">Footer</h2>
-                  <div>
-                      <ul class="footer_nav_menu">
-                          <li> <a href="index.html" class="footer_nav_item">Home</a> </li>
-                          <li> <a href="about.html" class="footer_nav_item" >About</a> </li>
-                          <!-- <li> <a href="/feature.html" class="footer_nav_item">Feature</a> </li> -->
-                          <li> <a href="portfolio.html" class="footer_nav_item">Portfolio</a> </li>
-                          <li> <a href="contact.html" class="footer_nav_item">Contact</a> </li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="copyright">
-                  <p>&copy; design company 2022</p>
-              </div>
-          </footer> <!-- footer ends -->
-      </div> <!-- site container ends -->
-      <script src="js/main.js"></script>
+    <script src="script/main.js"></script>
   </body>
-  </html>
+</html>

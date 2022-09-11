@@ -1,131 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-    <link rel="stylesheet" href="css/reset.css" type="text/css">
-</head>
-<body>
-    <div id="siteContainer"> <!-- site container begins -->
-        <div class="header">
-                <h2 class="hidden">Header</h2>
-                    <img class="logo" src="images/LogoNash.svg" alt="Main Logo">
-                <div class="mobileNav">
-                    <div id="mySidenav" class="sidenav">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <a href="index.html">Home</a>
-                        <a href="about.html">About</a>
-                        <a href="portfolio.html">Portfolio</a>
-                        <a href="contact.html">Contact Us</a>
-                    </div>
-                    <span onclick="openNav()"><img src="images/burger.svg" alt="Hamburger Menu" width="50" height="50"></span>
-                </div>
-                <h2 class="hidden">Logo</h2>
-                <nav class="topNav">
-                    <h2 class="hidden">Top Navigation</h2>
-                        <ul>
-                            <li> <a href="index.html">Home</a></li>
-                            <li> <a href="about.html">About</a></li>
-                            <li> <a href="portfolio.html">Portfolio</a></li>
-                            <li> <a href="contact.html">Contact</a></li>
-                        </ul>
-                </nav>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <title>Codi Agency</title>
+  </head>
+  <body class="site">
+    <h1 class="hidden">Codi agency</h1>
+    <a class="hidden" href="#content">Skip to content</a>
 
-    <button class="nashImages" data-modal-target="#modal1"><img class="profile" alt="Joanna's headshot" src="images/.jpg"></button>
-    <button class="nashImages" data-modal-target="#modal2"><img class="profile" alt="Cristine's headshot" src="images/.jpg"></button>
-    <button class="nashImages" data-modal-target="#modal3"><img class="profile" alt="Jerome's headshot" src="images/.jpg"></button>
-    <button class="nashImages" data-modal-target="#modal4"><img class="profile" alt="Hayden's headshot" src="images/.jpg"></button>
-
-    <!-- <div class="modal" id="modal1">
-      <div class="modal-header">
-        <div class="title"><img alt="Natasha's headshot" src="images/natashaHeadshot.png"></div>
-        <button data-close-button class="close-button">&times;</button>
+    <header class="nav-grid heather-style">
+      <h2 class="hidden">Heather</h2>
+      <div class="burger">
+        <h3 class="hidden">Hamburger Menu</h3>
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
       </div>
-      <div class="memberName">Natasha Adler</div>
-      <div class="modal-body">
-        With a passion for making the world a better place, Natasha adds the art of discovery and innovation to NASH.
-        She uses a critical eye and out of the box thinking to encourage a team full of innovators to design further, better
-        and with more intention. She studied at Fanshawe College in the program of Interactive Media Design where she fell in love
-        with design and user experience. She lives each day with a curious mind, looking for ways design, user experience and
-        interactivity can become better. In doing all this she brings kindness to others and encourages others to do the same.
-        Her mantra she lives by is “Throw Kindness Like Confetti”
-      </div>
-    </div>
-
-    <div class="modal" id="modal2">
-      <div class="modal-header">
-        <div class="title"><img alt="Arko's headshot" src="images/arkoHeadshot.png"></div>
-        <button data-close-button class="close-button">&times;</button>
-      </div>
-      <div class="memberName">Arko Roychowdhury</div>
-      <div class="modal-body">
-        An architect turned UX Designer, Arko bring with him his experience in design research and graphic design. He uses his understanding of user needs and behaviour to enhance a product and make it’s use more efficient and effective. Arko is currently pursuing Interactive Media Design from Fanshawe College in London, Ontario. Always on the lookout for a product to build or improve on, Arko’s curiosity of user psychology and product design keeps him very engaged with clients needs. The mantra he lives by is “Design creates culture. Culture shapes values. Values determine the future.”
-      </div>
-    </div>
-
-      <div class="modal" id="modal3">
-        <div class="modal-header">
-          <div class="title"><img alt="Sasha's headshot" src="images/sashaHeadshot.png"></div>
-          <button data-close-button class="close-button">&times;</button>
-        </div>
-        <div class="memberName">Sasha Ahrens</div>
-        <div class="modal-body">
-          Sasha Ahrens is a designer first, and brings his creativity to work every day. His experience
-          with digital graphics, photography, web design, and videography he brings many talents to NASH.
-          He is born and raised in London Ontario and is excited to be working where he grew up, and more
-          excited to elevate creations at NASH. <br> His hobbies include drawing, running, music, hockey, playing
-          video games, and reading. <br> His favourite hockey team is the Toronto Maple Leafs and is also a fan
-          of the Toronto Raptors, Blue Jays, and Pittsburgh Steelers. <br> His favourite music artists are
-          Tee Grizzley, Kanye West, Drake, Kendrick Lamar, Travis Scott, Denzel Curry, and Tyler the Creator.
-          <br>Some of his favourite movies and TV Shows are Breaking Bad, South Park, The Social Network, Uncut Gems,
-          and SuperBad.
-
+      <div class="logo">
+        <h3 class="hidden">codi logo</h3>
+        <div>
+          <img src="images/codi-logo.svg" alt="codi logo" />
         </div>
       </div>
-
-      <div class="modal" id="modal4">
-        <div class="modal-header">
-          <div class="title"><img alt="Hayden's headshot" src="images/haydenHeadshot.png"></div>
-          <button data-close-button class="close-button">&times;</button>
+      <nav class="top-nav" aria-label="Main Navigation">
+        <h3 class="hidden">Main Navigation</h3>
+        <ul>
+          <li><a href="index.html" class="selected">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="social">
+        <h3 class="hidden">social links</h3>
+        <div>
+          <p class="contact-us btn-purple">Get a Qoute</p>
         </div>
-        <div class="memberName">Hayden Burnell</div>
-        <div class="modal-body">
-          HAYDEN BURNELL. <br>A small town guy with big city dreams, Hayden adds a blend of creativity and leadership to NASH Designs. Only 21 years old, he has already conquered multiple challenges he has faced in his young life. He pursued studying Interactive Media Design at Fanshawe College in London, Ontario, where he discovered his dream of Front-End Development. Hayden likes to take simple ideas and enhance them into something unimaginable. His mantra he lives by is "Surround yourself with people that challenge how you think. Not people that nod their head and act like they agree". <br> <br>
+      </nav>
+    </header>
 
-          MORE INFO<br>
+    <main class="main" id="content">
+      <div>
+        <nav class="nav-links">
+          <h3 class="hidden">Mobile Navigation</h3>
+          <ul>
+            <li><a href="index.html" class="selected">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
 
-          Age: 21<br>
-          Hometown: Caledonia, Ontario<br>
-          Hobbies: Computers, Hockey, Travel<br>
-          Fun Facts: My favourite hockey team is the Edmonton Oilers, and I have a pet gecko named Archie (Named after Riverdale)
+      <section class="headboard">
+        <div class="one-item relative">
+          <img src="images/background.svg" alt="headboard" />
+          <div class="head-copy">
+            <h2>About</h2>
+            <h3>Home → About us</h3>
+          </div>
         </div>
-      </div> -->
-    <div id="overlay"></div>
+      </section>
 
-    <footer class="footer_container"> <!--footer begins -->
-            <div class="footer_nav">
-                <h2 class="hidden">Footer</h2>
-                <div>
-                    <ul class="footer_nav_menu">
-                        <li> <a href="index.html" class="footer_nav_item">Home</a> </li>
-                        <li> <a href="about.html" class="footer_nav_item" >About</a> </li>
-                        <li> <a href="portfolio.html" class="footer_nav_item">Portfolio</a> </li>
-                        <li> <a href="contact.html" class="footer_nav_item">Contact</a> </li>
-                    </ul>
-                </div>
+      <section class="headline-margin">
+        <h2 class="hidden">services section</h2>
+        <div class="one-item headline">
+          <p>Promo Vidoe</p>
+          <h3>Our Promotional Video</h3>
+        </div>
+      </section>
+
+      <section>
+        <div id="video" class="one-item video-control">
+          <video src="videos/promoVideo_BootcampG10.mp4" controls></video>
+        </div>
+      </section>
+
+      <section>
+        <div class="two-items">
+          <div id="controls">
+            <div id="play"><img src="images/button-play.svg" alt="" /></div>
+            <div id="pause"><img src="images/button-pause.svg" alt="" /></div>
+            <div id="restart"><img src="images/button-reset.svg" alt="" /></div>
+            <div><img src="images/button-volume.svg" alt="" /></div>
+
+            <section id="volumeControl">
+              <!-- <h3>Volume</h3> -->
+              <input
+                type="range"
+                min="0"
+                max="100"
+                value="50"
+                id="volumeSlider"
+              />
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="headline-margin">
+        <h2 class="hidden">services section</h2>
+        <div class="one-item headline">
+          <p>Team Member</p>
+          <h3>Our Beloved Creative Team</h3>
+        </div>
+      </section>
+
+      <section>
+        <div class="one-item thumb-main">
+          <img id="defaultImg" src="images/creative-team.svg" alt="" />
+          <div class="dynamic-copy teamInfo">
+            <h3>Codi Creative</h3>
+            <h4>Our Team Members</h4>
+            <p class="detail">
+              Click on a photo to get to know the founding members of CODI
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="grid-thumb">
+          <div class="thumbnails bioSwitcher">
+            <div>
+              <button class="profile-hover" id="profileOne" data-arrayref="0">
+                <img src="images/dynamic01-thumb.jpg" alt="button1" />
+              </button>
             </div>
-            <div class="copyright">
-                <p>&copy; design company 2022</p>
+
+            <div>
+              <button class="profile-hover" id="profileTwo" data-arrayref="1">
+                <img src="images/dynamic02-thumb.jpg" alt="button1" />
+              </button>
             </div>
-    </footer> <!--team section ends-->
-    </div> <!-- site container ends -->
-    <script src="js/main.js"></script>
-</body>
+
+            <div>
+              <button class="profile-hover" id="profileThree" data-arrayref="2">
+                <img src="images/dynamic03-thumbjpg.jpg" alt="button1" />
+              </button>
+            </div>
+
+            <div>
+              <button class="profile-hover" id="profilFour" data-arrayref="3">
+                <img src="images/dynamic04-thumb.jpg" alt="button1" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="two-items">
+          <div>
+            <div class="success">
+              <h2>Need a <br />successful <br />project?</h2>
+              <a href="contact.html"
+                ><p class="contact-us btn-purple">Contact Us</p></a
+              >
+              <div class="hide1">
+                <img src="images/man.png" alt="illustration guy" />
+              </div>
+            </div>
+          </div>
+
+          <div class="hide2">
+            <img src="images/woman.jpg" alt="illustration girl" />
+          </div>
+
+          <div class="hide3">
+            <img src="images/woman-2.jpg" alt="illutration combine" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot foot-style">
+      <div class="hidden"><h2>footer navigation</h2></div>
+      <div class="footer-grid custom-override">
+        <div id="foot-search">
+          <div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <nav class="logo">
+            <img src="images/codi-logo.svg" alt="codi logo" />
+          </nav>
+
+          <div>
+            <p class="social-copy">Innovate, include, inspire.</p>
+          </div>
+          <div class="social">
+            <div class="hidden"><h3>social links</h3></div>
+            <img src="images/social-fb.svg" alt="Facebook Address" />
+            <img src="images/social-twitter.svg" alt="Twitter address" />
+            <img src="images/social-insta.svg" alt="Instagram Adress" />
+          </div>
+
+          <div class="copyright">
+            <p>Copyright © Codi 2022</p>
+          </div>
+        </div>
+        <div id="foot-links">
+          <div class="hidden"><h3>navigation links</h3></div>
+          <div class="foot-address">
+            <img src="images/icon-location.svg" alt="location icon" />
+            <p>1001 Fanshawe College Blvd, London, ON N5Y 5R6</p>
+          </div>
+          <div class="foot-address">
+            <img src="images/icon-phone.svg" alt="phone number icon" />
+            <p>519-532-510</p>
+          </div>
+          <div class="foot-address">
+            <img src="images/icon-email.svg" alt="email icon" />
+            <p>codi@gmail.com</p>
+          </div>
+          <div class="foot-address">
+            <img src="images/icon-web.svg" alt="website icon" />
+            <p>www.codi.com.ca</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script/main.js"></script>
+    <script src="script/video.js"></script>
+    <script src="script/dynamic.js"></script>
+  </body>
 </html>
