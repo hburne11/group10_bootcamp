@@ -88,9 +88,21 @@
       <section>
         <div class="two-items">
           <div id="controls">
-            <button id="play">Play</button>
-            <button id="pause">Pause</button>
-            <button id="restart">Restart</button>
+            <div id="play"><img src="images/button-play.svg" alt="" /></div>
+            <div id="pause"><img src="images/button-pause.svg" alt="" /></div>
+            <div id="restart"><img src="images/button-reset.svg" alt="" /></div>
+            <div><img src="images/button-volume.svg" alt="" /></div>
+
+            <section id="volumeControl">
+              <!-- <h3>Volume</h3> -->
+              <input
+                type="range"
+                min="0"
+                max="100"
+                value="50"
+                id="volumeSlider"
+              />
+            </section>
           </div>
         </div>
       </section>
@@ -151,7 +163,9 @@
           <div>
             <div class="success">
               <h2>Need a <br />successful <br />project?</h2>
-              <p class="contact-us btn-purple">Contact Us</p>
+              <a href="contact.html"
+                ><p class="contact-us btn-purple">Contact Us</p></a
+              >
               <div class="hide1">
                 <img src="images/man.png" alt="illustration guy" />
               </div>

@@ -246,7 +246,7 @@ nav li a {
 
 input {
   /* color: #2f8ec5 !important; */
-  padding: 0.6rem 10rem 0.6rem 1rem;
+  /* padding: 0.6rem 10rem 0.6rem 1rem; */
   margin-top: 1rem;
   background-color: #ffffff;
   border: 0;
@@ -342,10 +342,34 @@ footer {
   align-items: flex-start;
 }
 
+.main-copy h2::after {
+  content: "";
+  background: var(--lime);
+  display: block;
+  width: 170px;
+  height: 5px;
+
+  /* bottom: 2px; */
+}
+
 .main-copy h2 {
   line-height: 3.5rem;
   font-weight: var(--fw-semi-bold);
   font-size: 2.81rem;
+}
+
+.headline h3 {
+  position: relative;
+}
+.headline h3::before {
+  position: absolute;
+  content: "";
+  background: var(--purple);
+  /* display: block; */
+  width: 120px;
+  height: 5px;
+  right: 0;
+  bottom: 0;
 }
 
 .main-copy p {
@@ -353,13 +377,8 @@ footer {
   font-size: 0.7rem;
 }
 
-.video-placeholder {
-  width: 100%;
-  height: 300px;
-  background-color: #9befe3;
-}
-
 .headline-margin {
+  position: relative;
   margin: 1rem;
 }
 .cards {
@@ -482,6 +501,11 @@ footer {
   position: relative;
 }
 
+#controls img {
+  cursor: pointer;
+  width: 50px;
+}
+
 .dynamic-copy {
   border-radius: 30px 30px 100px 30px;
   position: absolute;
@@ -552,6 +576,8 @@ img {
 }
 
 #controls {
+  display: flex;
+  flex-direction: row;
   border-radius: 30px 30px 80px 30px;
   margin-top: 1rem;
   background-color: var(--purple);

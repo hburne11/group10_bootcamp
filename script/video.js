@@ -17,9 +17,9 @@
     vid.currentTime = 0;
   }
 
-  // function setVolume() {
-  //   vid.volume = volumeSlider.value / 100;
-  // }
+  function setVolume() {
+    vid.volume = volumeSlider.value / 100;
+  }
 
   function vidControls() {
     vid.controls = false;
@@ -29,5 +29,5 @@
   pauseButton.addEventListener("click", pauseVideo);
   playButton.addEventListener("click", playVideo);
   restartButton.addEventListener("click", restartVideo);
-  // volumeSlider.addEventListener("change", setVolume);
+  volumeSlider.addEventListener("change", setVolume);
 })();
